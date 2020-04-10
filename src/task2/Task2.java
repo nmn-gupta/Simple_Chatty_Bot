@@ -20,4 +20,12 @@ public class Task2 {
     public void setSecondRemainder(int secondRemainder) {
         this.secondRemainder = secondRemainder;
     }
+
+    public int getThirdRemainder() {
+        return thirdRemainder;
+    }
+
+    public void setThirdRemainder(int thirdRemainder) {
+        this.thirdRemainder = thirdRemainder;
+    }
 }
