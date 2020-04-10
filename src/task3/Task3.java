@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Task3 {
     Scanner sc = new Scanner(System.in);
-    public void operation() {
+
+    public void tasks() {
         System.out.println("Now I will prove  you that I can do any task you want from listed below:");
         System.out.println("Press 1. to check whether the given number is prime or not. ");
         System.out.println("Press 2. to check whether the given number is odd or even. ");

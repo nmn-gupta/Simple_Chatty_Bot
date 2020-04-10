@@ -3,6 +3,7 @@ package main;
 import task1.Task1;
 import task2.Task2;
 import task3.Task3;
+import task4.Task4;
 
 import java.util.Scanner;
 
@@ -18,7 +19,9 @@ public class Main {
         Task2 task2 = new Task2(firstRemainder, secondRemainder, thirdRemainder);
         task2.guessAge();
         Task3 task3 = new Task3();
-        task3.operation();
+        task3.tasks();
+        Task4 task4 = new Task4();
+
 
 
     }
