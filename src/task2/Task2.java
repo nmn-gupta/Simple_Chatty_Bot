@@ -34,4 +34,9 @@ public class Task2 {
         this.secondRemainder = secondRemainder;
         this.thirdRemainder = thirdRemainder;
     }
+
+    public void guessAge() {
+        // formula to calculate age
+
+    }
 }
