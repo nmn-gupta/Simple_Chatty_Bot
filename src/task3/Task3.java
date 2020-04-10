@@ -15,7 +15,7 @@ public class Task3 {
             checkPrime();
         }
         if (choice == 2) {
-            //checkEvenOrOdd();
+            checkEvenOrOdd();
         }
         if (choice == 3) {
             //fcatorial();
@@ -43,6 +43,10 @@ public class Task3 {
             System.out.println(userInput + " is not a Prime number");
 
         }
+
+    }
+
+    public void checkEvenOrOdd() {
 
     }
 }
