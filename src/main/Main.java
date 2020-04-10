@@ -15,6 +15,7 @@ public class Main {
         int secondRemainder = sc.nextInt();
         int thirdRemainder = sc.nextInt();
         Task2 task2 = new Task2(firstRemainder, secondRemainder, thirdRemainder);
+        task2.guessAge();
 
 
 
