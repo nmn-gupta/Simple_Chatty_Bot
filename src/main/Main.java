@@ -10,7 +10,10 @@ public class Main {
         Task1 task1 = new Task1();
         task1.greet("Aid", 2018);
         Scanner sc = new Scanner(System.in);
-        //Task2 task2 = new Task2(sc.nextInt);
+        int firstRemainder = sc.nextInt();
+        int secondRemainder = sc.nextInt();
+        int thirdRemainder = sc.nextInt();
+        //Task2 task2 = new Task2(firstRemainder,secondRemainder,thirdRemainder);
 
 
 
