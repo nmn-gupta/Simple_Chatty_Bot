@@ -49,6 +49,11 @@ public class Task3 {
     public void checkEvenOrOdd() {
         System.out.println("Enter the number to be checked:");
         int userInput = sc.nextInt();
+        if (userInput % 2 == 0) {
+            System.out.println(userInput + " is Even number");
+        } else {
+            System.out.println(userInput + " is Odd number");
+        }
 
     }
 }
