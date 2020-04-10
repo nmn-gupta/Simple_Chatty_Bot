@@ -60,5 +60,10 @@ public class Task3 {
     public void factorial() {
         System.out.println("Enter the number whose factorial is to be calculate:");
         int userInput = sc.nextInt();
+        int f = 1;
+        for (int i = 1; i <= userInput; i++) {
+            f *= i;
+        }
+        System.out.println("Factorial of " + userInput + " is : " + f);
     }
 }
