@@ -24,7 +24,7 @@ public class Main {
         Task4 task4 = new Task4();
         task4.test();
         Task5 task5 = new Task5();
-        
+        task5.end();
 
 
 
