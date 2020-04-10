@@ -9,6 +9,22 @@ public class Task3 {
         System.out.println("Press 2. to check whether the given number is odd or even. ");
         System.out.println("Press 3. to find theb factorial of any number you want. ");
         Scanner sc = new Scanner(System.in);
+        int choice = sc.nextInt();
+        if (choice == 1) {
+            checkPrime();
+        }
+        if (choice == 2) {
+            //checkEvenOrOdd();
+        }
+        if (choice == 3) {
+            //fcatorial();
+        } else {
+            System.out.println("Invalid choice!!");
+        }
+
+    }
+
+    public void checkPrime() {
 
     }
 }
