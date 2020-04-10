@@ -28,4 +28,10 @@ public class Task2 {
     public void setThirdRemainder(int thirdRemainder) {
         this.thirdRemainder = thirdRemainder;
     }
+
+    public Task2(int firstRemainder, int secondRemainder, int thirdRemainder) {
+        this.firstRemainder = firstRemainder;
+        this.secondRemainder = secondRemainder;
+        this.thirdRemainder = thirdRemainder;
+    }
 }
