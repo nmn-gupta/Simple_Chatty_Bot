@@ -21,6 +21,7 @@ public class Main {
         Task3 task3 = new Task3();
         task3.tasks();
         Task4 task4 = new Task4();
+        task4.test();
 
 
 
