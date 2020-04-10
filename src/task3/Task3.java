@@ -47,6 +47,8 @@ public class Task3 {
     }
 
     public void checkEvenOrOdd() {
+        System.out.println("Enter the number to be checked:");
+        int userInput = sc.nextInt();
 
     }
 }
