@@ -18,7 +18,7 @@ public class Task3 {
             checkEvenOrOdd();
         }
         if (choice == 3) {
-            //fcatorial();
+            factorial();
         } else {
             System.out.println("Invalid choice!!");
         }
@@ -58,6 +58,7 @@ public class Task3 {
     }
 
     public void factorial() {
-
+        System.out.println("Enter the number whose factorial is to be calculate:");
+        int userInput = sc.nextInt();
     }
 }
