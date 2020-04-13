@@ -14,6 +14,8 @@ public class Main {
         Task1 task1 = new Task1();
         task1.greet("Aid", 2018);
         Scanner sc = new Scanner(System.in);
+        System.out.println("Let me guess your age .");
+        System.out.println("Say me remainders of dividing your age by 3, 5 and 7. ");
         int firstRemainder = sc.nextInt();
         int secondRemainder = sc.nextInt();
         int thirdRemainder = sc.nextInt();
